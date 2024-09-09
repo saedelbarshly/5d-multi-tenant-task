@@ -7,17 +7,8 @@ use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/user', function (Request $request) {
-    return $request->user();
-})->middleware('auth:sanctum');
 
-
-
-
-// Route::group(['prefix' => 'admin', 'middleware' => ['auth:sanctum', 'role:admin']], function () {
 Route::post('/register', RegisterController::class);
-
-
 
 Route::middleware('domain')->group(function () {
     Route::controller(LoginController::class)->group(function () {

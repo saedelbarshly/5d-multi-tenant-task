@@ -86,7 +86,6 @@ class UserController extends Controller implements HasMiddleware
                 'user' => new UserResource($user),
             ]);
         } catch (\Throwable $th) {
-            dd($th);
             return response()->json(['status' => false,'message' => "Someting went wrong!"]);
         }
     }
