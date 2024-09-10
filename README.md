@@ -10,8 +10,11 @@ First, i would like to thank you for the good communication and also for this ta
 - login steps
   
     1- Register as tenant and then return to the tenant the url will use it .
-    2- use url to legin and do all action in your tenant 
-    3- you cant use subdomain not blong to you i hanadled 
+  
+    2- use url to legin and do all action in your tenant
+  
+    3- you cant use subdomain not blong to you i hanadled
+  
     4- Login and return token jwt
 
 - Best regards
